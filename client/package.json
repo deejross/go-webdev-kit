@@ -1,14 +1,14 @@
 {
-  "name": "iris",
+  "name": "go-webdev-kit",
   "version": "1.0.0",
-  "description": "Frontend for IRIS",
+  "description": "Web development kit for Golang and React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "http://scm.prodlb.travp.net/oai_sys/itoc_golang_scripts/trunk"
+    "url": "https://github.com/deejross/go-webdev-kit"
   },
   "author": "Ross Peoples <ross.peoples@gmail.com>",
   "license": "ISC",
