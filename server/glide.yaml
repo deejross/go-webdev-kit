@@ -1,0 +1,5 @@
+package: iris/server
+import:
+- package: github.com/labstack/echo
+  subpackages:
+  - engine/standard

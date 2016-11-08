@@ -1,0 +1,50 @@
+hash: f154d9f73abe452a824ce849593f982a5d9c3a07751832e55120246180af5473
+updated: 2016-11-07T20:14:58.614147346-06:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 9ed569b5d1ac936e6494082958d63a6aa4fff99a
+- name: github.com/facebookgo/grace
+  version: 5729e484473f52048578af1b80d0008c7024089b
+  subpackages:
+  - gracehttp
+- name: github.com/GeertJohan/go.rice
+  version: 9fdfd46f9806a9228aae341d65ab75c5235c383c
+- name: github.com/gorilla/websocket
+  version: 9fbf129ff2a3cf2467f7d0021de2eb4d3aecc109
+- name: github.com/labstack/echo
+  version: fbce3daade239d34a70a47b9463829211b9b6cc6
+  subpackages:
+  - engine/standard
+  - context
+  - engine
+  - log
+  - middleware
+- name: github.com/labstack/gommon
+  version: 2d272df536d051e737aea353b86c979d6e88bce0
+  subpackages:
+  - log
+  - bytes
+  - color
+  - random
+- name: github.com/mattn/go-colorable
+  version: d228849504861217f796da67fae4f6e347643f15
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/stretchr/testify
+  version: 976c720a22c8eb4eb6a0b4348ad85ad12491a506
+  subpackages:
+  - assert
+- name: github.com/tylerb/graceful
+  version: 50a48b6e73fcc75b45e22c05b79629a67c79e938
+- name: github.com/valyala/fasthttp
+  version: 6cd438ba896c48caa4194fb7381d91eae33b9461
+- name: github.com/valyala/fasttemplate
+  version: 3b874956e03f1636d171bda64b130f9135f42cff
+- name: golang.org/x/net
+  version: 5d997795f7bb1d2de5edc1f5d64af2562401c82d
+  subpackages:
+  - context
+  - websocket
+- name: google.golang.org/appengine
+  version: c7b8227c83007befd67b324a64c969ebc1d7475d
+devImports: []

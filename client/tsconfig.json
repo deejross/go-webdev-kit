@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "module": "commonjs", //system
+        "moduleResolution": "node",
+        "target": "es5",
+        "noImplicitAny": true,
+        "outDir": "../public/js/build",
+        "jsx": "react",
+        "sourceMap": true,
+        "inlineSourceMap": false
+        //"watch": true
+    }
+}
