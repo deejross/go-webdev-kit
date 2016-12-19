@@ -1,11 +1,16 @@
 package main
 
-import "github.com/labstack/echo"
+import (
+	"go-webdev-kit/server/api/v1"
+
+	"github.com/labstack/echo"
+)
 
 // SetRoutes sets up routes for the applications.
 func SetRoutes(e *echo.Echo) {
 	setStatic(e)
 	setCoreRoutes(e)
+	v1.SetAPIV1Routes(e)
 }
 
 func setStatic(e *echo.Echo) {

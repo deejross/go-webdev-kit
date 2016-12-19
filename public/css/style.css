@@ -1,0 +1,134 @@
+/* Main window */
+.main-subcontainer {
+    overflow: hidden;
+}
+
+/* Splitter */
+div.SplitPane {
+    height: calc(100vh - 43px) !important;
+}
+
+.Resizer {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #000;
+    opacity: .2;
+    z-index: 1;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.Resizer:hover {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+    height: 11px;
+    margin: -5px 0;
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    cursor: row-resize;
+    width: 100%;
+}
+
+.Resizer.horizontal:hover {
+    border-top: 5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+    width: 11px;
+    margin: 0 -5px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgba(255, 255, 255, 0);
+    cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+    border-left: 5px solid rgba(0, 0, 0, 0.5);
+    border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+/* React Controls Tree */
+.rc-tree {
+    margin: 0;
+    padding: 5px;
+}
+
+.rc-tree li span.rc-tree-switcher-noop::after {
+    cursor: pointer;
+    display: inline-block;
+    content: " ";
+    margin-right: 2px;
+    font-size: 0.8em;
+    width: 1em;
+}
+
+.rc-tree li span.rc-tree-switcher.rc-tree-center_close {
+    /*cursor: pointer;
+    display: inline-block;
+    content: "\25B6";
+    margin-right: 2px;
+    font-size: 0.8em;
+    width: 1em;*/
+    display: inline-block;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid black;
+    opacity: 0.6;
+    margin-right: 7px;
+    position: relative;
+    left: 2px;
+}
+
+.rc-tree li span.rc-tree-switcher.rc-tree-center_open {
+    display: inline-block;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid black;
+    opacity: 0.6;
+    margin-right: 3px;
+    position: relative;
+    top: -2px;
+}
+
+.rc-tree li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    outline: 0;
+}
+
+.rc-tree li .rc-tree-node-content-wrapper {
+    display: inline-block;
+    margin: 0;
+    padding: 1px 1px 0 0;
+    cursor: pointer;
+}
+
+.rc-tree li .rc-tree-node-content-wrapper:hover {
+    text-decoration: none;
+}
+
+.rc-tree-title span:last-child {
+    padding: 2px;
+}
+
+.rc-tree-node-selected .rc-tree-title span:last-child {
+    background-color: #4183C4;
+    color: #fdfdfd;
+}
+
+.rc-tree-child-tree {
+    padding-left: 20px;
+}

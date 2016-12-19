@@ -13,16 +13,16 @@
   "author": "Ross Peoples <ross.peoples@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^0.14.41",
-    "@types/react-dom": "^0.14.17",
-    "@types/react-router": "^2.0.37",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
     "semantic-ui-react": "^0.56.10",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.9.5",
-    "typescript": "^2.0.3",
     "webpack": "^1.13.2"
   }
 }
