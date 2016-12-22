@@ -13,7 +13,7 @@ Go Webdev Kit is a web-based development platform built using the following tech
 
 Developer Installation
 ----------------------
-These instructions are only for developers looking to build a web application using this kit.
+These instructions are only for developers looking to build a web application using this kit. While these instructions are for macOS, they should be adaptable for other platforms. Visual Studio Code is also optional, but this kit provides a build and run configuration for VSCode to make getting started quick and easy.
 
 **Requirements**:
 - macOS >= 10.10 (El Capitan)
@@ -21,7 +21,7 @@ These instructions are only for developers looking to build a web application us
 - NodeJS >= 6.7: install using Homebrew: brew install node
 - Go >= 1.7.1: install using Homebrew: brew install go
 - Glide (Go package manager) >= 0.12.3: install using Homebrew: brew install glide
-- Delve (Go debugger): install using Homebrew: brew install go-delve/delve/delve
+- Delve (Go debugger): install using Homebrew: brew install go-delve/delve/delve --HEAD
 - Visual Studio Code: download from https://code.visualstudio.com
 - VSCode Go plugin (author: lukehoban)
     - Install Plugin's Tools
@@ -45,3 +45,5 @@ glide install
 - Start the web server: F5
 - View the app: http://localhost:8080
 
+**Adding React Components**
+Webpack automatically builds packages installed via npm. So simply running `npm install --save <package_name>` within the `client` directory will make the package available for use within your frontend code.
