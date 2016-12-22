@@ -46,4 +46,5 @@ glide install
 - View the app: http://localhost:8080
 
 **Adding React Components**
+
 Webpack automatically builds packages installed via npm. So simply running `npm install --save <package_name>` within the `client` directory will make the package available for use within your frontend code.
